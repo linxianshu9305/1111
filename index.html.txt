@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clashsub的个人博客</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #333;
+        }
+        header {
+            background-color: #00796b;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-family: 'Orbitron', sans-serif;
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004d40;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #b2dfdb;
+        }
+        main {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        article {
+            margin-bottom: 40px;
+        }
+        article h2 {
+            font-family: 'Roboto Slab', serif;
+            color: #00796b;
+            border-bottom: 2px solid #00796b;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        article p {
+            line-height: 1.8;
+            font-family: 'Roboto', sans-serif;
+        }
+        article img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #00796b;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+        @media (max-width: 768px) {
+            main {
+                width: 90%;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+            nav a {
+                margin: 0 10px;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Clashsub的个人博客</h1>
+    </header>
+    <nav>
+        <a href="#home">首页</a>
+        <a href="#articles">文章</a>
+        <a href="#about">关于</a>
+        <a href="#contact">联系</a>
+    </nav>
+    <main>
+        <article>
+            <h2>文章标题1</h2>
+            <img src="图片URL1" alt="描述1">
+            <p>这里是文章内容。你可以在这里展示你的第一篇文章的内容。</p>
+        </article>
+        <article>
+            <h2>文章标题2</h2>
+            <img src="图片URL2" alt="描述2">
+            <p>这里是文章内容。你可以在这里展示你的第二篇文章的内容。</p>
+        </article>
+        <!-- 更多文章可以继续添加 -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Clashsub的个人博客</p>
+    </footer>
+</body>
+</html>
